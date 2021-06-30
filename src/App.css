@@ -1,0 +1,93 @@
+/* App */
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    color: #8386F5;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.centered-row {
+    justify-content: center;
+    margin-top:5%;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.header-row {
+    text-align: center;
+    margin-top:5%;
+}
+
+.btn-primary {
+    background-color: #4DBD33;
+    border: #4DBD33;
+    width: 30%;
+}
+
+.btn-primary:hover {
+    background-color: #338121;
+    border: #338121;
+}
+
+.rating-summary {
+    margin-top: 5%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.select-container {
+    margin-top: 5%;
+}
+
+.fa-info-circle {
+    margin-left:10px;
+    font-size:20px;
+    color:#041348
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border:2px solid #041348;
+}
+
+/* NavBar */
+
+.nav-icon {
+    font-size: 40px;
+    margin-right: 20px;
+    color: #4DBD33;
+}
+
+.nav-icon:hover {
+    color: #338121;
+    cursor: pointer;
+}
+
+nav {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;   
+}
+
+/* Form */
+
+.quote-form {
+    margin-top: 2%;
+}
+
+/* Loading Overlay */
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
