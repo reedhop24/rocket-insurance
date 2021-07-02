@@ -5,7 +5,7 @@ const RatingForm = ({firstName, setFirstName, lastName, setLastName, address, se
     return (
         <Container>
             <Row className="header-row">
-                <Col><h2>Rate</h2></Col>
+                <Col><h2>Rating Information</h2></Col>
             </Row>
             <Row>
                 <Col xs={6} className="col-centered">
