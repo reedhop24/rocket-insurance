@@ -54,13 +54,13 @@ const Rating = ({quoteObj, setQuoteObj, setShowQuote}):JSX.Element => {
 
     return (
         <>
-        {loading 
-            ? <ReactLoading type={'spin'} color={'#8386F5'} height={300} width={200} className="center"/> 
-            : <RatingForm firstName={firstName} setFirstName={setFirstName} lastName={lastName} 
-            setLastName={setLastName} address={address} setAddress={setAddress} addressTwo={addressTwo} 
-            setAddressTwo={setAddressTwo} city={city} setCity={setCity} state={state} setState={setState} 
-            zip={zip} setZip={setZip} getQuote={getQuote}/>
-        }
+            {loading 
+                ? <ReactLoading type={'spin'} color={'#8386F5'} height={300} width={200} className="center"/> 
+                : <RatingForm firstName={firstName} setFirstName={setFirstName} lastName={lastName} 
+                setLastName={setLastName} address={address} setAddress={setAddress} addressTwo={addressTwo} 
+                setAddressTwo={setAddressTwo} city={city} setCity={setCity} state={state} setState={setState} 
+                zip={zip} setZip={setZip} getQuote={getQuote}/>
+            }
         </>
     )
 }

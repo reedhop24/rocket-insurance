@@ -6,7 +6,6 @@ import ReactLoading from 'react-loading';
 import {v4 as uuidv4} from 'uuid';
 
 const QuoteInfo = ({quoteObj, setQuoteObj, setShowQuote}):JSX.Element => {
-
     // Dynamically set the variable selections, so if more options come from back end those new fields will 
     // automatically be generated with the QuoteSelect component and the state for it will be set below:
     const [selected, setSelected] = useState<object>(quoteObj['variable_selections']);
@@ -47,7 +46,7 @@ const QuoteInfo = ({quoteObj, setQuoteObj, setShowQuote}):JSX.Element => {
                 setLoading(false);
                 setQuoteObj(res['quote']);
             }
-        })
+        });
     }
 
     return (

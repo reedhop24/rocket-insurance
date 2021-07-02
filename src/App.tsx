@@ -7,10 +7,8 @@ import Rating from './components/Rating';
 const App = ():JSX.Element => {
 
   // TODO:
-  // - Check console no errors or help text
   // - Consistent Code Style / clean typescript
   // - Documentation for running the project
-  // - Comments in code where necessary
   // - Move to Github
   // - Move to firebase
 

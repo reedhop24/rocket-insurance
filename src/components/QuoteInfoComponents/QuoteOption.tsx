@@ -2,7 +2,7 @@ import {Form, Tooltip, OverlayTrigger, Col} from 'react-bootstrap';
 import {v4 as uuidv4} from 'uuid';
 
 const QuoteOption = ({option, defaultVal, handleSelected, optionKey}):JSX.Element => {
-    const renderTooltip = (props) => (
+    const renderTooltip = (props):JSX.Element => (
         <Tooltip id="button-tooltip" {...props}>
           {option.description}
         </Tooltip>
