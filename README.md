@@ -7,3 +7,6 @@
 ##### Move into application: cd rocket-insurance
 ##### Install dependencies: npm install
 ##### Start application: npm start
+
+### Live project hosted at:
+##### https://mighty-wave-33931.herokuapp.com/

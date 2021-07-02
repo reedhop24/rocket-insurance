@@ -6,12 +6,6 @@ import Rating from './components/Rating';
 
 const App = ():JSX.Element => {
 
-  // TODO:
-  // - Consistent Code Style / clean typescript
-  // - Documentation for running the project
-  // - Move to Github
-  // - Move to firebase
-
   const [showQuote, setShowQuote] = useState<boolean>(false);
   const [quoteObj, setQuoteObj] = useState<object | null>(null);
 
